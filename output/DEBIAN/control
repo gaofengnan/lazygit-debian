@@ -1,10 +1,10 @@
 Source: lazygit
 Section: utils
 Priority: optional
-Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Maintainer: Fengnan Gao <gao.fengnan@gmail.com>
 Homepage: https://github.com/jesseduffield/lazygit
 Package: lazygit
-Version: lazygit_VERSION-BUILD_VERSION~griffo
+Version: lazygit_VERSION-BUILD_VERSION~gaofn
 Architecture: ARCH
 Depends: 
 Description: a simple terminal UI for git commands.

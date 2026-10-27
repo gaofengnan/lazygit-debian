@@ -20,8 +20,8 @@ for ARCH in "${!ARCH_TO_TARBALL[@]}"; do
 
   # One package for every suite: upstream ships one static binary per
   # architecture, so only the old ~<suite> version suffix ever differed. The
-  # fixed ~griffo keeps it below the distro's own build of the same version.
-  FULL_VERSION="${lazygit_VERSION}-${BUILD_VERSION}~griffo_${ARCH}"
+  # fixed ~gaofn keeps it below the distro's own build of the same version.
+  FULL_VERSION="${lazygit_VERSION}-${BUILD_VERSION}~gaofn_${ARCH}"
 
   docker build . \
     -t lazygit-${ARCH} \
